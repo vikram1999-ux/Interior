@@ -1,0 +1,38 @@
+
+/************************************************* Navbar ********************************************************************/
+.navbar .nav-item .nav-link{color:#1f1f1f !important; font-size:14px; padding:25px 10px 0px 10px; letter-spacing:-.030em;}
+.navbar .nav-item .nav-link:hover,.navbar .nav-item .nav-link:focus,.navbar .nav-item .nav-link.active{color:#1f1f1f !important; border-bottom:1px solid #272727;} 
+
+
+/*******************************Ipad Device L***************************************/
+@media (min-width: 1920px) {}
+@media (min-width: 1600px) {}
+@media (min-width: 1359.98px) and (max-width: 1459.98px) {}
+@media (min-width: 1199.98px) and (max-width: 1359.98px) {.navbar-nav>li+li {margin-left:2px !important;}}
+@media (min-width: 991.98px) and (max-width: 1199.98px){.navbar-nav>li+li {margin-left:50px !important;}}
+
+/******************************* Max-width-768 ***************************************/
+@media (min-width:768px) {
+.navbar-nav>li+li {margin-left:23px;}
+}
+
+/******************************* Ipad Device W ***************************************/
+@media (min-width:768px) and (max-width:991.98px)  {.navbar-nav>li+li {margin-left:7px !important;}}
+
+
+/******************************* Max-width-640 ***************************************/
+@media (max-width:767.98px) {
+.navbar-toggler{position:absolute;top:-40px;right:0px;background-color:#26af8c !important; outline:none !important;} .navbar .nav-item .nav-link{padding:10px 15px;color:#000 !important; display:inline-block;}
+.navbar {padding:0px !important;} .navbar .nav-item {border-bottom:solid 1px #ccc; background:#fff; color:#000;} .navbar-toggler-icon{width:1em; height:1em; color:#FFF;}	.navbar-nav>li+li {margin-left:0px !important;} .navbar-nav>li+li{border-left:0px !important;}
+.navbar .nav-item .nav-link:hover,.navbar .nav-item .nav-link:focus,.navbar .nav-item .nav-link.active{color:#1f1f1f !important; border-bottom:none !important; color:#26af8c !important;}
+
+
+}
+/******************************* Mobile ***************************************/
+@media (max-width:575.98px) {
+.navbar-toggler{top:-34px;}
+}
+@media (max-width: 479.98px) {
+	
+}
+
